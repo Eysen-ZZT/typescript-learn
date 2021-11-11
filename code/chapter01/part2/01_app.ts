@@ -1,0 +1,1 @@
+let getSum: (a:number ,b:number) => number
