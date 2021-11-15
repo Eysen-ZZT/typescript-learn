@@ -3,7 +3,8 @@
         "module": "es2015",
         "target": "es2015",
         "outDir": "./dist",
-        "strict": true
+        "strict": true,
+        "noEmitOnError": true
     },
     "include": [
         "./src/**/*"
