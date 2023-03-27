@@ -31,7 +31,7 @@ s = <string>value
 function warnUser(): void {
     console.log("This is my warning message");
     // return 123; // Type 'number' is not assignable to type 'void'
-    return null; // ok 
+    return undefined; // ok 
 }
 
 // enum 类型

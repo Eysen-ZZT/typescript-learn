@@ -32,7 +32,7 @@ interface Inter {
 function fn3<T extends Inter>(a: T): number {
     return a.length
 }
-fn3<Inter>('123'); // ok
+fn3<Inter>('123'); // ok，因为string类型存在length属性
 // fn3(123); // error
 // fn3({ age: 22 }); // error
 fn3<Inter>({ length: 2 }); // ok
